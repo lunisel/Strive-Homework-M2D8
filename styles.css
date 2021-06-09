@@ -1,0 +1,96 @@
+h1{
+    font-weight: 200;
+    text-align: center;
+    padding-top: 1.5rem;
+}
+
+p{
+    text-align: center;
+    font-size: 1rem;
+}
+
+div#first-col{
+    background-color: rgb(107, 189, 107);
+    border-top: solid black 2px;
+    border-bottom: solid black 2px;
+    border-left: solid black 2px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    color: white;
+}
+
+.rounded-left {
+    border-top-left-radius: 3rem!important;
+    border-bottom-left-radius: 3rem!important;
+}
+
+.rounded-right {
+    border-top-right-radius: 3rem!important;
+    border-bottom-right-radius: 3rem!important;
+}
+
+div.second-col{
+    background-color: rgb(29, 153, 255);
+    border-top: solid black 2px;
+    border-bottom: solid black 2px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+span.second-col{
+    color: white;
+    font-weight: 700;
+}
+
+div.third-col-one{
+    background-color: rgb(255, 255, 205);
+    border-top-right-radius: 3rem;
+    border-top: solid black 2px;
+    border-right: solid black 2px;
+}
+
+div.third-col-two{
+    background-color: rgb(255, 255, 119);
+    border-right: solid black 2px;
+}
+
+div.third-col-three{
+    background-color: rgb(255, 255, 0);
+    border-bottom-right-radius: 3rem;
+    border-bottom: solid black 2px;
+    border-right: solid black 2px;
+}
+
+.row div.col-12{
+    height: 133px;
+}
+
+
+button.btn{
+    padding: 0;
+    width: fit-content;
+    border: solid gray 1px;
+}
+
+div.col-minutes{
+    display: flex;
+    align-items: center;
+    text-align: right;
+}
+
+hr{
+    border-top: solid gray 0.2px;
+}
+
+h4{
+    font-size: 1rem;
+}
+
+h4 + span {
+    font-size: 0.8rem;
+    color: gray;
+}
