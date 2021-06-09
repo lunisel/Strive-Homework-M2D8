@@ -47,15 +47,21 @@ span.second-col{
 }
 
 div.third-col-one{
+    display: flex;
     background-color: rgb(255, 255, 205);
     border-top-right-radius: 3rem;
     border-top: solid black 2px;
     border-right: solid black 2px;
+    justify-content: center;
+    align-items: center;
 }
 
 div.third-col-two{
     background-color: rgb(255, 255, 119);
     border-right: solid black 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 div.third-col-three{
@@ -63,17 +69,23 @@ div.third-col-three{
     border-bottom-right-radius: 3rem;
     border-bottom: solid black 2px;
     border-right: solid black 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .row div.col-12{
-    height: 133px;
+    height: 133.3px;
 }
 
 
 button.btn{
     padding: 0;
-    width: fit-content;
     border: solid gray 1px;
+}
+
+div.btn-group{
+    width: 50px;
 }
 
 div.col-minutes{
